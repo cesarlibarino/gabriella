@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gabriela Henriques | Nutricionista Especialista em Lipedema e Emagrecimento</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            serif: ['Cinzel', 'serif'],
+          },
+          colors: {
+            nutri: {
+              gold: '#D4AF37', /* Dourado Elite inspirado na bio dela */
+              goldHover: '#AA8A2A',
+              blue: '#0B2545', /* Azul Royal Profundo de alta autoridade */
+              lightBg: '#F4F7F6', /* Fundo clínico leve e sofisticado */
+              dark: '#05101E', /* Quase preto azulado para máximo contraste */
+              slate: '#5C6B73' /* Cinza elegante para textos secundários */
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #F4F7F6; color: #05101E; overflow-x: hidden; }
+    
+    .btn-premium {
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .btn-premium:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px rgba(214, 175, 55, 0.3);
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="bg-white/90 backdrop-blur-md sticky top-0 w-full z-50 border-b border-nutri-blue/5">
+    <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="font-serif text-base md:text-xl tracking-wider text-nutri-blue font-bold flex items-center gap-1">
+        GABRIELA HENRIQUES 
+        <svg class="w-4 h-4 text-sky-500 fill-current inline" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+        <span class="font-sans text-[9px] block tracking-widest text-nutri-gold font-bold uppercase mt-0.5 md:inline md:mt-0 md:ml-2">• Nutrição Esportiva & Lipedema</span>
+      </div>
+      <a href="https://api.whatsapp.com/message/TJWCRQ5QISXZF1?autoload=1&app_absent=0&utm_source=ig" target="_blank" class="btn-premium bg-nutri-blue text-white px-5 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase">
+        Vagas Limitadas
+      </a>
+    </div>
+  </header>
+
+  <section class="py-20 md:py-28 bg-gradient-to-b from-white to-nutri-lightBg relative">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
+      <div class="md:col-span-7 space-y-6 order-2 md:order-1">
+        <span class="inline-flex items-center gap-2 text-nutri-blue bg-nutri-blue/5 px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-nutri-gold"></i> Método de Emagrecimento Definitivo
+        </span>
+        <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-nutri-dark leading-[1.2] font-bold">
+          Desinflame o Lipedema e <br><span class="italic text-nutri-gold font-medium">alcance a sua melhor versão.</span>
+        </h1>
+        <p class="text-base md:text-lg text-nutri-slate max-w-xl leading-relaxed font-medium">
+          Trate a raiz das dores e do inchaço causados pelo Lipedema, construa massa muscular e conquiste um emagrecimento definitivo com estratégias personalizadas de Nutrição Esportiva e Funcional.
+        </p>
+        <div class="pt-4">
+          <a href="https://api.whatsapp.com/message/TJWCRQ5QISXZF1?autoload=1&app_absent=0&utm_source=ig" target="_blank" class="btn-premium inline-flex items-center gap-3 bg-nutri-gold hover:bg-nutri-goldHover text-white px-8 md:px-10 py-4 rounded-full font-bold text-sm tracking-wide shadow-md">
+            <i data-lucide="calendar" class="w-4 h-4 text-white"></i> Agendar Minha Consulta Individual
+          </a>
+        </div>
+      </div>
+      
+      <div class="md:col-span-5 relative order-1 md:order-2">
+        <div class="absolute -inset-3 border border-nutri-gold/30 rounded-2xl transform translate-x-2 translate-y-2 -z-10"></div>
+        <img src="img/gabrielahenriques.webp" alt="Gabriela Henriques - Nutricionista" class="rounded-2xl w-full aspect-[4/5] object-cover shadow-xl bg-white"
+             onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1374&auto=format&fit=crop';">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-widest text-nutri-gold font-bold">Sinais de Inflamação</span>
+        <h2 class="font-serif text-3xl md:text-4xl text-nutri-dark mt-2">Você sente que seu esforço não gera resultados no espelho?</h2>
+        <div class="w-12 h-0.5 bg-nutri-gold mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-6 bg-nutri-lightBg rounded-xl border border-nutri-blue/5">
+          <i data-lucide="activity" class="w-8 h-8 text-nutri-gold mb-4"></i>
+          <h3 class="font-bold text-nutri-dark mb-2">Dores do Lipedema</h3>
+          <p class="text-xs text-nutri-slate leading-relaxed font-medium">Sensação de peso crônico, hipersensibilidade ao toque e acúmulo de gordura desproporcional nas pernas e braços.</p>
+        </div>
+        <div class="p-6 bg-nutri-lightBg rounded-xl border border-nutri-blue/5">
+          <i data-lucide="shield-alert" class="w-8 h-8 text-nutri-gold mb-4"></i>
+          <h3 class="font-bold text-nutri-dark mb-2">Efeito Sanfona</h3>
+          <p class="text-xs text-nutri-slate leading-relaxed font-medium">Perder peso temporariamente através de restrições absurdas e recuperar tudo logo em seguida.</p>
+        </div>
+        <div class="p-6 bg-nutri-lightBg rounded-xl border border-nutri-blue/5">
+          <i data-lucide="trending-down" class="w-8 h-8 text-nutri-gold mb-4"></i>
+          <h3 class="font-bold text-nutri-dark mb-2">Flacidez e Falta de Músculo</h3>
+          <p class="text-xs text-nutri-slate leading-relaxed font-medium">Dificuldade extrema para ganhar massa magra e tonificar o corpo, mesmo treinando com frequência.</p>
+        </div>
+        <div class="p-6 bg-nutri-lightBg rounded-xl border border-nutri-blue/5">
+          <i data-lucide="droplet" class="w-8 h-8 text-nutri-gold mb-4"></i>
+          <h3 class="font-bold text-nutri-dark mb-2">Retenção Severa</h3>
+          <p class="text-xs text-nutri-slate leading-relaxed font-medium">Inchaço constante que deforma a silhueta, causado por um organismo inflamado e com padrão metabólico lento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-nutri-lightBg">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-5 space-y-4">
+          <span class="text-xs uppercase tracking-widest text-nutri-gold font-bold">Tratamento Direcionado</span>
+          <h2 class="font-serif text-3xl md:text-4xl text-nutri-dark leading-tight">Ciência Aplicada à Sua Estética</h2>
+          <p class="text-sm text-nutri-slate font-medium leading-relaxed">
+            Esqueça dietas genéricas de gaveta. O foco do acompanhamento é regular o seu ambiente metabólico, tratando a inflamação do tecido gorduroso e fornecendo energia real para construção de massa magra.
+          </p>
+        </div>
+        <div class="md:col-span-7 space-y-6">
+          <div class="bg-white p-6 rounded-xl border border-nutri-blue/5 flex gap-4 items-start">
+            <div class="bg-nutri-gold/5 text-nutri-gold p-2.5 rounded-lg flex-shrink-0"><i data-lucide="heart" class="w-5 h-5 text-nutri-gold"></i></div>
+            <div>
+              <h4 class="font-bold text-nutri-dark">Protocolo Anti-inflamatório para Lipedema</h4>
+              <p class="text-xs text-nutri-slate mt-1 font-medium leading-relaxed">Estratégias nutricionais específicas com foco em modular as vias de inflamação, diminuindo as dores, a retenção de líquidos e o avanço do lipedema.</p>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-nutri-blue/5 flex gap-4 items-start">
+            <div class="bg-nutri-gold/5 text-nutri-gold p-2.5 rounded-lg flex-shrink-0"><i data-lucide="dumbbell" class="w-5 h-5 text-nutri-gold"></i></div>
+            <div>
+              <h4 class="font-bold text-nutri-dark">Nutrição Esportiva de Alta Performance</h4>
+              <p class="text-xs text-nutri-slate mt-1 font-medium leading-relaxed">Alinhamento preciso de macronutrientes para otimizar seus treinos, garantindo o ganho real de massa muscular e a queima de gordura localizada de forma eficiente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+      <span class="font-serif text-xs uppercase tracking-widest text-nutri-gold font-bold">Sua Nutricionista</span>
+      <h2 class="font-serif text-3xl md:text-4xl text-nutri-dark">Gabriela Henriques</h2>
+      <p class="text-base text-nutri-slate max-w-2xl mx-auto leading-relaxed font-medium">
+        Sou Nutricionista especialista em Emagrecimento Definitivo, Ganho de Massa Muscular e pioneira no tratamento integrativo do Lipedema. Com uma comunidade ativa de mais de 25 mil seguidores no Instagram, desenvolvo protocolos premium focados em devolver a autoimagem e o bem-estar para mulheres. Minha metodologia une base científica esportiva com um olhar humano e sem restrições severas, te conduzindo passo a passo à sua melhor versão.
+      </p>
+      <div class="text-xs text-nutri-dark font-bold tracking-wider uppercase pt-2 flex items-center justify-center gap-1.5">
+        <i data-lucide="check-circle" class="w-4 h-4 text-nutri-gold flex-shrink-0"></i> Consultoria de Elite On-line e Presencial
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-nutri-lightBg">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="font-serif text-2xl md:text-3xl text-nutri-dark">Dúvidas Frequentes</h2>
+        <div class="w-12 h-0.5 bg-nutri-gold mx-auto mt-3"></div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="faq-item bg-white p-5 rounded-xl border border-nutri-blue/5 cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex justify-between items-center">
+            <h4 class="font-bold text-sm text-nutri-dark">Como funciona a consultoria on-line para quem tem Lipedema?</h4>
+            <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-nutri-gold transition-transform duration-300"></i>
+          </div>
+          <div class="faq-answer transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <p class="text-xs text-nutri-slate mt-3 font-medium leading-relaxed">Nós mapeamos todo o seu histórico clínico, sintomas e rotina. O plano alimentar é desenhado estrategicamente com compostos e alimentos altamente anti-inflamatórios para reduzir o inchaço e a dor pélvica/membros, adaptado perfeitamente à sua realidade.</p>
+          </div>
+        </div>
+
+        <div class="faq-item bg-white p-5 rounded-xl border border-nutri-blue/5 cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex justify-between items-center">
+            <h4 class="font-bold text-sm text-nutri-dark">Vou conseguir ganhar massa muscular mesmo em processo de emagrecimento?</h4>
+            <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-nutri-gold transition-transform duration-300"></i>
+          </div>
+          <div class="faq-answer transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <p class="text-xs text-nutri-slate mt-3 font-medium leading-relaxed">Com certeza. Através do cálculo exato da ingestão de proteínas e manipulação correta dos carboidratos na janela de treino, conseguimos preservar e estimular seus músculos enquanto seu corpo queima gordura como fonte de energia.</p>
+          </div>
+        </div>
+
+        <div class="faq-item bg-white p-5 rounded-xl border border-nutri-blue/5 cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex justify-between items-center">
+            <h4 class="font-bold text-sm text-nutri-dark">Preciso parar de comer tudo o que gosto para ver resultados?</h4>
+            <i data-lucide="chevron-down" class="faq-icon w-4 h-4 text-nutri-gold transition-transform duration-300"></i>
+          </div>
+          <div class="faq-answer transition-all duration-300 ease-in-out max-h-0 overflow-hidden">
+            <p class="text-xs text-nutri-slate mt-3 font-medium leading-relaxed">De forma alguma. Restrições severas causam rebote. Meu método ensina você a ter flexibilidade e controle, encaixando os alimentos que você ama nos momentos corretos da sua rotina para manter a constância e o resultado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-nutri-blue text-white text-center relative overflow-hidden">
+    <div class="max-w-3xl mx-auto px-6 relative z-10 space-y-8">
+      <h2 class="font-serif text-3xl md:text-5xl leading-tight font-normal">Sua jornada para um corpo leve e definido começa aqui.</h2>
+      <p class="text-blue-100/80 text-sm md:text-base max-w-xl mx-auto font-medium leading-relaxed">
+        Clique no botão abaixo para iniciar seu atendimento personalizado via WhatsApp e garantir uma das vagas exclusivas da minha consultoria.
+      </p>
+      <div>
+        <a href="https://api.whatsapp.com/message/TJWCRQ5QISXZF1?autoload=1&app_absent=0&utm_source=ig" target="_blank" class="btn-premium inline-flex items-center gap-3 bg-nutri-gold hover:bg-nutri-goldHover text-white px-10 md:px-12 py-4 rounded-full font-bold text-sm tracking-wide shadow-xl">
+          <i data-lucide="message-circle" class="w-5 h-5 text-white"></i> Iniciar Minha Mudança Agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 bg-white text-center text-nutri-slate text-[10px] font-medium tracking-wider uppercase border-t border-nutri-blue/5">
+    <p>© 2026 Gabriela Henriques — Nutrição Avançada & Esportiva — Todos os direitos reservados.</p>
+  </footer >
+
+  <script>
+    lucide.createIcons();
+
+    function toggleFaq(element) {
+      const answer = element.querySelector('.faq-answer');
+      const icon = element.querySelector('.faq-icon');
+      
+      if (answer.style.maxHeight && answer.style.maxHeight !== '0px') {
+        answer.style.maxHeight = '0px';
+        icon.style.transform = 'rotate(0deg)';
+      } else {
+        document.querySelectorAll('.faq-answer').forEach(ans => ans.style.maxHeight = '0px');
+        document.querySelectorAll('.faq-icon').forEach(ic => ic.style.transform = 'rotate(0deg)');
+        
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+  </script>
+</body>
+</html>
